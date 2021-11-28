@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #fffffa;
+    font-family: 'Outfit', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.Name {
+    color: #001347;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #001347;
+}
+
+.over-mij {
+    display: flex;
+}
+
+.over-mij div {
+    flex: 1;
+}
+
+.over-mij div img {
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 50%;
+}
+
+.over-mij div h3 p {
+    display: block;
+    float: right;
+}
+
+.hobbies {
+    display: flex;
+}
+
+.hobbies div {
+    flex: 1;
+}
+
+.hobbies div img {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.hobbies div h3 p {
+    display: block;
+}
+
+.school {
+    display: flex;
+}
+
+.school div {
+    flex: 1;
+}
+
+.school div img {
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 50%;
+}
+
+.school div h3 p {
+    display: block;
+    float: right;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials div {
+    flex: 1;
+}
+
+.socials div img {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.socials div h3 p {
+    display: block;
+}
