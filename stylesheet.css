@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&display=swap');
 
+
+
 body {
     margin: 0;
     background-color: #e6edff;
@@ -16,8 +18,13 @@ body {
     justify-content: space-between;
 }
 
+.footer {
+    display: block;
+    font-size: 10px;
+    margin: 50px;
+}
 
-
+@media (min-width 860px) {}
 
 @media (max-width: 480px) {
 
@@ -106,15 +113,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
 @media (min-width: 480px) {
 
     .name {
@@ -168,7 +166,6 @@ body {
     .hobbies div img {
         width: 65%;
         border-radius: 50%;
-        align-items: left;
     }
 
     .school {
