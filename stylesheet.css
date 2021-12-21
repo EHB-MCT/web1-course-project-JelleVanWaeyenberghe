@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: #fffffa;
+    background-color: #e6edff;
     font-family: 'Outfit', sans-serif;
 }
 
@@ -17,91 +17,189 @@ body {
 }
 
 
-.Name {
-    color: #001347;
+
+
+@media (max-width: 480px) {
+
+    .name {
+        color: #001347;
+    }
+
+
+    .txt-left {
+        margin-left: 12%;
+    }
+
+    .txt-left h3 {
+        padding-right: 22%;
+        text-align: right;
+    }
+
+    .txt-left p {
+        padding-right: 22%;
+    }
+
+    .navigation ul li {
+        display: flex;
+        margin-right: 60px;
+        font-size: 18px;
+        text-decoration: none;
+        color: #001347;
+    }
+
+    .over-mij {
+        display: flex;
+    }
+
+    .over-mij div {
+        flex: 1;
+    }
+
+    .over-mij div img {
+        width: 65%;
+        border-radius: 50%;
+        margin-left: 25%;
+    }
+
+    .hobbies {
+        display: flex;
+    }
+
+    .hobbies div {
+        flex: 1;
+    }
+
+    .hobbies div img {
+        width: 65%;
+        border-radius: 50%;
+        align-items: left;
+    }
+
+    .school {
+        display: flex;
+    }
+
+    .school div {
+        flex: 1;
+    }
+
+    .school div img {
+        width: 65%;
+        border-radius: 50%;
+        margin-left: 25%;
+    }
+
+
+    .socials {
+        display: flex;
+    }
+
+    .socials div {
+        flex: 1;
+    }
+
+    .socials div img {
+        width: 65%;
+        border-radius: 50%;
+    }
+
 }
 
-.navigation ul {
-    margin: 0;
-    padding: 0;
-}
 
-.navigation ul li {
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 18px;
-    text-decoration: none;
-    color: #001347;
-}
 
-.over-mij {
-    display: flex;
-}
 
-.over-mij div {
-    flex: 1;
-}
 
-.over-mij div img {
-    width: 40%;
-    border-radius: 50%;
-    margin-left: 50%;
-}
 
-.over-mij div h3 p {
-    display: block;
-    float: right;
-}
 
-.hobbies {
-    display: flex;
-}
 
-.hobbies div {
-    flex: 1;
-}
 
-.hobbies div img {
-    width: 40%;
-    border-radius: 50%;
-}
 
-.hobbies div h3 p {
-    display: block;
-}
 
-.school {
-    display: flex;
-}
+@media (min-width: 480px) {
 
-.school div {
-    flex: 1;
-}
+    .name {
+        text-decoration-color: #001347;
+    }
 
-.school div img {
-    width: 40%;
-    border-radius: 50%;
-    margin-left: 50%;
-}
+    .txt-left {
+        margin-left: 12%;
+    }
 
-.school div h3 p {
-    display: block;
-    float: right;
-}
+    .txt-left h3 {
+        padding-right: 25%;
+        text-align: right;
+    }
 
-.socials {
-    display: flex;
-}
+    .txt-left p {
+        padding-right: 25%;
+    }
 
-.socials div {
-    flex: 1;
-}
+    .navigation ul li {
+        display: inline-block;
+        margin-right: 30px;
+        font-size: 18px;
+        text-decoration: none;
+        color: #001347;
+    }
 
-.socials div img {
-    width: 40%;
-    border-radius: 50%;
-}
+    .over-mij {
+        display: flex;
+    }
 
-.socials div h3 p {
-    display: block;
+    .over-mij div {
+        flex: 1;
+        margin-top: 50px;
+    }
+
+    .over-mij div img {
+        width: 65%;
+        border-radius: 50%;
+        margin-left: 25%;
+    }
+
+    .hobbies {
+        display: flex;
+    }
+
+    .hobbies div {
+        flex: 1;
+    }
+
+    .hobbies div img {
+        width: 65%;
+        border-radius: 50%;
+        align-items: left;
+    }
+
+    .school {
+        display: flex;
+    }
+
+    .school div {
+        flex: 1;
+    }
+
+    .school div img {
+        width: 65%;
+        border-radius: 50%;
+        margin-left: 25%;
+    }
+
+
+    .socials {
+        display: flex;
+    }
+
+    .socials div {
+        flex: 1;
+    }
+
+    .socials div img {
+        width: 65%;
+        border-radius: 50%;
+    }
+
+    .socials div h3 p {
+        display: block;
+    }
 }
